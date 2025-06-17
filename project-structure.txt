@@ -1,0 +1,14 @@
+Project Structure
+├── src/
+│   ├── bin/
+│   ├── routes/
+│   ├── public/
+│   ├── node_modules/
+│   ├── app.js
+│   ├── database.js
+│   ├── database.test.js
+│   ├── package.json
+│   └── package-lock.json
+├── node_modules/
+├── .git/
+└── .gitignore 

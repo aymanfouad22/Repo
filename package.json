@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "pg": "^8.16.0",
+    "pm2": "^6.0.8",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  },
+  "scripts": {
+    "pm2": "pm2 start processes.json --no-daemon",
+    "start": "node ./src/bin/www.js",
+    "pretest": "node ./src/bin/setup-test-db.js",
+    "test": "jest",
+    "migrate": "node ./src/bin/migrate.js"
+  }
+}
